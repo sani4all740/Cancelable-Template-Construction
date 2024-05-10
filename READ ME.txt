@@ -1,0 +1,14 @@
+1) Use the FVC datasets
+   -Generate fixed-length vector features using mcc and kernel learning-based kpca
+   -Make sure mccsdk.dll file can be read by matlab
+
+2) Perform vector perm and shift ordering
+   -Run 'RandomHashCode_with_protection' to perform vector permutation and shift-ordering (achieve non-invertibility).
+   -Simultaneously generate hash codes/templates.
+
+3) Evaluations
+   -Switch between different fingerprint impressions in 'similarity_cal' for performance analysis.
+   -Switch between different parameters in 'RPermutedHashedCode' to perform analysis on the effect of different parameter tuning on the performance-security trade-offs.
+
+
+   
